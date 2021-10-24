@@ -1,0 +1,24 @@
+{
+  "name": "deme4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build:min": "rollup -c min.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/lodash": "^4.14.176",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
